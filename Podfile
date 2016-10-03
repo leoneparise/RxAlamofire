@@ -1,29 +1,29 @@
-source 'https://github.com/CocoaPods/Specs.git'
+# Uncomment this line to define a global platform for your project
+platform :ios, '8.0'
 
 use_frameworks!
 
-def common
-    pod 'Alamofire', '~> 3.4'
-    pod 'RxSwift', '~> 2.4'
-    pod 'RxCocoa', '~> 2.4'
-end
+def common 
+	pod 'Alamofire', '~> 3.4'
+	pod 'RxSwift', '~> 2.4'
+	pod 'RxCocoa', '~> 2.4'
+end 
 
 target 'RxAlamofireExample' do
-    platform :ios, '8.0'
-    common
+	common
 end
 
-target 'RxAlamofiretvOSExample' do
-    platform :tvos, '9.0'
-    common
+target 'RxAlamofireTests' do
+	common
+	pod 'OHHTTPStubs'
+    pod 'OHHTTPStubs/Swift'
+    pod 'RxBlocking'
 end
 
-target 'RxAlamofire-iOS' do
-   common
-
-   target 'RxAlamofireTests' do
-       pod 'OHHTTPStubs'
-       pod 'OHHTTPStubs/Swift'
-       pod 'RxBlocking'
-   end
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['SWIFT_VERSION'] = '2.3'
+    end
+  end
 end

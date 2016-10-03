@@ -1,25 +1,25 @@
 PODS:
-  - Alamofire (3.4.0)
-  - OHHTTPStubs (5.0.0):
-    - OHHTTPStubs/Default (= 5.0.0)
-  - OHHTTPStubs/Core (5.0.0)
-  - OHHTTPStubs/Default (5.0.0):
+  - Alamofire (3.5.1)
+  - OHHTTPStubs (5.2.1):
+    - OHHTTPStubs/Default (= 5.2.1)
+  - OHHTTPStubs/Core (5.2.1)
+  - OHHTTPStubs/Default (5.2.1):
     - OHHTTPStubs/Core
     - OHHTTPStubs/JSON
     - OHHTTPStubs/NSURLSession
     - OHHTTPStubs/OHPathHelpers
-  - OHHTTPStubs/JSON (5.0.0):
+  - OHHTTPStubs/JSON (5.2.1):
     - OHHTTPStubs/Core
-  - OHHTTPStubs/NSURLSession (5.0.0):
+  - OHHTTPStubs/NSURLSession (5.2.1):
     - OHHTTPStubs/Core
-  - OHHTTPStubs/OHPathHelpers (5.0.0)
-  - OHHTTPStubs/Swift (5.0.0):
+  - OHHTTPStubs/OHPathHelpers (5.2.1)
+  - OHHTTPStubs/Swift (5.2.1):
     - OHHTTPStubs/Core
-  - RxBlocking (2.4):
-    - RxSwift (~> 2.4)
-  - RxCocoa (2.4):
-    - RxSwift (~> 2.4)
-  - RxSwift (2.4)
+  - RxBlocking (2.6.0):
+    - RxSwift (~> 2.5)
+  - RxCocoa (2.6.0):
+    - RxSwift (~> 2.5)
+  - RxSwift (2.6.0)
 
 DEPENDENCIES:
   - Alamofire (~> 3.4)
@@ -30,12 +30,12 @@ DEPENDENCIES:
   - RxSwift (~> 2.4)
 
 SPEC CHECKSUMS:
-  Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
-  OHHTTPStubs: a5d2e9eea07869d42ec03338325f398bc520e159
-  RxBlocking: 1226c1fa0ca1e0ca5f964d4330ca3649f2128680
-  RxCocoa: 7d6cd877de99f5640306b3d6cf87f580c1d91b61
-  RxSwift: 67b9ef4e8b34fb394e200e754c6a09cc16559f94
+  Alamofire: 0dfba1184a543e2aa160f4e39cac4e8aba48d223
+  OHHTTPStubs: 3a42f25c00563b71355ac73112ba2324e9e6cef4
+  RxBlocking: f2e0a7e74d5e9d3029d2b1118e2af01f583fbdd8
+  RxCocoa: 89ab00d5753502520227940e3a0e0a0413683c6b
+  RxSwift: 77f3a0b15324baa7a1c9bfa9f199648a82424e26
 
-PODFILE CHECKSUM: 47307a47dfaf50ac084b7699f90b85190ec47ba1
+PODFILE CHECKSUM: 85c65bf47dbbade3843514508f60ae3ece49dd9f
 
-COCOAPODS: 1.0.0
+COCOAPODS: 1.0.1

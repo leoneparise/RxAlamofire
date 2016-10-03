@@ -2,8 +2,8 @@
 //  RxAlamofire-iOS.h
 //  RxAlamofire-iOS
 //
-//  Created by Krunoslav Zaher on 10/28/15.
-//  Copyright © 2015 Bonto.ch. All rights reserved.
+//  Created by Leone Parise Vieira da Silva on 03/10/16.
+//  Copyright © 2016 RxSwiftComunity. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
